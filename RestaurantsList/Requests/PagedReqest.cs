@@ -1,6 +1,6 @@
 ﻿namespace RestaurantsList.Requests
 {
-    public abstract class PagedReqest
+    public abstract record PagedReqest
     {
         public int PageNumber { get; set; }
 

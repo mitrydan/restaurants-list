@@ -33,7 +33,7 @@ namespace RestaurantsList.Api.Extensions
             HttpRequest request)
             where TData : IEnumerable<object>
         {
-            var enpoint = request == null 
+            var enpoint = request == null
                 ? "http://localhost:8080/"
                 : string.Concat(
                     request.Scheme,

@@ -1,7 +1,4 @@
 ﻿namespace RestaurantsList.Contracts
 {
-    public sealed class CreateCityRq
-    {
-        public string Name { get; set; }
-    }
+    public sealed record CreateCityRq(string Name);
 }

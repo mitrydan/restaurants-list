@@ -1,6 +1,5 @@
 ﻿namespace RestaurantsList.Requests
 {
-    public sealed class GetRestaurantsByCityRq : PagedReqest
-    {
-    }
+    public sealed record GetRestaurantsByCityRq : PagedReqest
+    { }
 }

@@ -4,7 +4,6 @@ using Microsoft.AspNetCore.Mvc.Filters;
 using Newtonsoft.Json;
 using RestaurantsList.Api.ApiResponses;
 using Serilog;
-using System;
 
 namespace RestaurantsList.Api.Filters
 {
